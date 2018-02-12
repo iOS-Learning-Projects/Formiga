@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E8E59FE31E7881A000FEA879 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E59FE21E7881A000FEA879 /* main.m */; };
+		E8E59FEB1E78860000FEA879 /* Formiga.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E59FEA1E78860000FEA879 /* Formiga.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		E8E59FDF1E7881A000FEA879 /* Formiga */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Formiga; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8E59FE21E7881A000FEA879 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E8E59FE91E78860000FEA879 /* Formiga.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Formiga.h; sourceTree = "<group>"; };
+		E8E59FEA1E78860000FEA879 /* Formiga.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Formiga.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				E8E59FE21E7881A000FEA879 /* main.m */,
+				E8E59FE91E78860000FEA879 /* Formiga.h */,
+				E8E59FEA1E78860000FEA879 /* Formiga.m */,
 			);
 			path = Formiga;
 			sourceTree = "<group>";
@@ -121,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8E59FE31E7881A000FEA879 /* main.m in Sources */,
+				E8E59FEB1E78860000FEA879 /* Formiga.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
